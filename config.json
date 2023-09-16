@@ -1,0 +1,263 @@
+{
+	".*\/wrapperMessagingWithoutDetection.js$": {
+		"name": "Sourcepoint",
+		"block": true,
+		"thirdParty": true
+	},
+	".*\/borlabs-cookie.min.js$": {
+		"name": "Borlabs",
+		"comment": "Wordpress plugin",
+		"block": true
+	},
+	".*\/dumontConsent.js$": {
+		"name": "Dumont",
+		"block": true,
+		"thirdParty": true
+	},
+	".*\/ConsentManager,Sticky2": {
+		"name": "Admiral",
+		"block": true,
+		"thirdParty": true
+	},
+	"\\S+\\.mgr\\.consensu\\.org": {
+		"name": "IAB Europe",
+		"block": true,
+		"thirdParty": true
+	},
+	"cdn\\.cookielaw\\.org": {
+		"name": "OneTrust",
+		"block": true,
+		"thirdParty": true
+	},
+	"\\S+\\.cookiepro\\.com": {
+		"name": "OneTrust",
+		"block": true,
+		"thirdParty": true
+	},
+	"consent\\.cookiebot\\.com": {
+		"name": "Cookiebot",
+		"block": true,
+		"thirdParty": true
+	},
+	"c\\.evidon\\.com": {
+		"name": "Evidon",
+		"block": true,
+		"thirdParty": true
+	},
+	"cdn\\.opencmp\\.net": {
+		"block": true,
+		"thirdParty": true
+	},
+	"cmp\\.dmgmediaprivacy\\.co\\.uk": {
+		"name": "dmg media",
+		"block": true,
+		"thirdParty": true
+	},
+	"cc\\.cdn\\.civiccomputing\\.com": {
+		"name": "CIVIC UK",
+		"block": true,
+		"thirdParty": true
+	},
+	"cdn\\.privacy-mgmt\\.com": {
+		"name": "Sourcepoint",
+		"block": true,
+		"thirdParty": true
+	},
+	"consent\\.trustarc\\.com": {
+		"name": "TrustArc",
+		"block": true,
+		"thirdParty": true
+	},
+	"cdn\\.snigelweb\\.com\/sncmp\/": {
+		"name": "snigel",
+		"block": true,
+		"thirdParty": true
+	},
+	"gdpr-consent-tool.privacymanager.io": {
+		"name": "LiveRamp",
+		"block": true,
+		"thirdParty": true
+	},
+	"\\S+\\.consentmanager\\.net": {
+		"name": "CMP",
+		"block": true,
+		"thirdParty": true
+	},
+	"consent\\.google\\.com": {
+		"name": "Google",
+		"comment": "Either in main_frame (redirect) or subdocument (xhr)",
+		"block": true,
+		"types": ["subdocument"]
+	},
+	"([a-z46]+\\.)?google\\.[a-z\\.]+": {
+		"name": "Google",
+		"client": true,
+		"cookies": {
+			"CONSENT": "YES+FU.ck+V14+GL",
+			"SOCS": "CAESEwgDEgk1NjE1Mzc5MjgaAmRlIAEaBgiA08SnBg"
+		},
+		"types": ["main_frame"]
+	},
+	"consent\\.youtube\\.com": {
+		"name": "Google",
+		"comment": "Either in main_frame (redirect) or subdocument (xhr)",
+		"block": true,
+		"types": ["subdocument"]
+	},
+	"((www|m)\\.)?youtu(\\.)?be(\\.com)?": {
+		"name": "Google",
+		"cookies": {
+			"CONSENT": "YES+FU.ck+V9+YT",
+			"SOCS": "CAESEwgDEgk1NjE1Mzc5MjgaAmRlIAEaBgiA08SnBg"
+		},
+		"types": ["main_frame", "xmlhttprequest"]
+	},
+	"(www)?\\.npr\\.org": {
+		"name": "NPR",
+		"cookies": {
+			"choiceVersion": 1,
+			"trackingChoice": false
+		},
+		"types": ["main_frame"]
+	},
+	"(mobile)?(\\.)?twitter\\.com": {
+		"name": "Twitter",
+		"client": true,
+		"cookies": {
+			"d_prefs": "MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw"
+		},
+		"types": ["main_frame"]
+	},
+	"(.*)?\\.facebook\\.com": {
+		"name": "Facebook",
+		"cookies": {
+			"datr": "cF91YHUB9toI-dyohS4nPJAj"
+		},
+		"types": ["main_frame"]
+	},
+	"(www)?\\.instagram\\.com": {
+		"name": "Facebook",
+		"cookies": {
+			"ig_did": "CD59CE4E-9115-422A-BA57-47DAB739A81D"
+		},
+		"types": ["main_frame"]
+	},
+	"(www)?\\.reddit\\.com": {
+		"name": "Advance Publications",
+		"comment": "Uses EUCookieNotice on mobile",
+		"cookies": {
+			"eu-cookies-opted": {"opted":true, "nonessential":false},
+			"EUCookieNotice": 3
+		},
+		"types": ["main_frame"]
+	},
+	"([a-z]+)?\\.yahoo\\.com": {
+		"name": "Verizon",
+		"cookies": {
+			"B": "52ln6hhg75j8d&b=3&s=oj"
+		},
+		"types": ["main_frame"]
+	},
+	"(www)?\\.msn\\.com": {
+		"name": "Microsoft",
+		"client": true,
+		"cookies": {
+			"eupubconsent-v2": "%RNG"
+		},
+		"types": ["main_frame"]
+	},
+	"(www)?\\.ebay\\.[a-z\\.]+": {
+		"name": "eBay",
+		"cookies": {
+			"npii": "%RNG"
+		},
+		"types": ["main_frame"]
+	},
+	"(www)?\\.bbc\\.com": {
+		"client": true,
+		"cookies": {
+			"ckns_explicit": 2,
+			"ckns_privacy": "july2019",
+			"FCCDCF": [null,null,["[[],[],[],[],null,null,true]",1618794589549],["CPE4HOrPE4HOrEsABDENBWCgAAAAAAAAAAwIAAAAAAAA","1~","2F7FC38B-2FB8-4176-9C46-84505BF58C55"],null]
+		},
+		"types": ["main_frame"]
+	},
+	"(www)?\\.telekom\\.com": {
+		"client": true,
+		"cookies": {
+			"cookie-optin": {"version":1,"settings":{"required":false,"analytical":false,"marketing":false,"thirdparty":false}}
+		},
+		"types": ["main_frame"]
+	},
+	"(www)?\\.nytimes\\.com": {
+		"client": true,
+		"cookies": {
+			"purr-pref-agent": "<Go"
+		},
+		"types": ["main_frame"]
+	},
+	"(www)?\\.theverge\\.com": {
+		"cookies": {
+			"_chorus_privacy_consent": "%RNG"
+		},
+		"types": ["main_frame"]
+	},
+	"(www)?\\.spiegel\\.de": {
+		"client": true,
+		"cookies": {
+			"euconsent-v2": "%RNG",
+			"polygon_consent": "%RNG"
+		},
+		"types": ["main_frame"]
+	},
+	"[a-z]+\\.fandom\\.com": {
+		"client": true,
+		"cookies": {
+			"euconsent-v2": "%RNG",
+			"tracking-opt-in-status": "rejected",
+			"tracking-opt-in-version": 4
+		},
+		"types": ["main_frame"]
+	},
+	"store\\.steampowered\\.com": {
+		"name": "Valve",
+		"cookies": {
+			"cookieSettings": {"version":1,"preference_state":2,"content_customization":null,"valve_analytics":null,"third_party_analytics":null,"third_party_content":null}
+		},
+		"types": ["main_frame"]
+	},
+	"stackoverflow\\.com": {
+		"name": "Stack Overflow",
+		"cookies": {
+			"OptanonAlertBoxClosed": "1970-01-01T00:00:00.000Z"
+		},
+		"types": ["main_frame"]
+	},
+	"(www)?\\.paypal\\.com": {
+		"name": "PayPal",
+		"cookies": {
+			"cookie_check": "no",
+			"cookie_prefs": "T%3D0%2CP%3D0%2CF%3D0%2Ctype%3Dexplicit_settings",
+			"enforce_policy": "gdpr_v2.1"
+		},
+		"types": ["main_frame"]
+	},
+	"(www)?\\.derstandard\\.at": {
+		"cookies": {
+			"DSGVO_ZUSAGE_V1": true
+		},
+		"types": ["main_frame"]
+	},
+	"web\\.de": {
+		"cookies": {
+			"euconsent-bypass": 1
+		},
+		"types": ["main_frame"]
+	},
+	"www\\.gmx\\.net": {
+		"cookies": {
+			"euconsent-bypass": 1
+		},
+		"types": ["main_frame"]
+	}
+}
