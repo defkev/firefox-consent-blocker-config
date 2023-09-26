@@ -91,7 +91,6 @@
 	},
 	"([a-z46]+\\.)?google\\.[a-z\\.]+": {
 		"name": "Google",
-		"client": true,
 		"cookies": {
 			"CONSENT": "YES+FU.ck+V14+GL",
 			"SOCS": "CAESEwgDEgk1NjE1Mzc5MjgaAmRlIAEaBgiA08SnBg"
