@@ -92,8 +92,7 @@
 	"([a-z46]+\\.)?google\\.[a-z\\.]+": {
 		"name": "Google",
 		"cookies": {
-			"CONSENT": "YES+FU.ck+V14+GL",
-			"SOCS": "CAESEwgDEgk1NjE1Mzc5MjgaAmRlIAEaBgiA08SnBg"
+			"SOCS": "CAESHAgBEhJnd3NfMjAyNDA5MTAtMF9SQzEaAmRlIAEaBgiA6p23Bg"
 		},
 		"types": ["main_frame"]
 	},
@@ -106,8 +105,7 @@
 	"((www|m)\\.)?youtu(\\.)?be(\\.com)?": {
 		"name": "Google",
 		"cookies": {
-			"CONSENT": "YES+FU.ck+V9+YT",
-			"SOCS": "CAESEwgDEgk1NjE1Mzc5MjgaAmRlIAEaBgiA08SnBg"
+			"SOCS": "CAESHAgBEhJnd3NfMjAyNDA5MTAtMF9SQzEaAmRlIAEaBgiA6p23Bg"
 		},
 		"types": ["main_frame", "xmlhttprequest"]
 	},
