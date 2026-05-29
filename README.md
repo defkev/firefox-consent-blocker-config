@@ -11,11 +11,6 @@ The main config file for Consent Blocker.
 * types (array) If present only inject the selected webRequest.ResourceType's, optional
 * thirdparty (boolean) Inject into 3rd party requests, optional
 
-## Supported placeholders for cookie and storage item values:
-* %RNG - Generates a random alphanumeric 24 byte string
-
-Currently doesn't work for nested values!
-
 # Example:
 ```json
 {
@@ -26,7 +21,7 @@ Currently doesn't work for nested values!
         "disabled": false,
         "cookies": {
             "string": "string",
-            "random": "%RNG",
+            "random": null,
             "int": 1,
             "float": 1.23,
             "boolean": false,
@@ -36,7 +31,7 @@ Currently doesn't work for nested values!
         "storage": {
             "local": {
                 "string": "string",
-                "random": "%RNG",
+                "random": null,
                 "int": 1,
                 "float": 1.23,
                 "boolean": false,
@@ -45,7 +40,7 @@ Currently doesn't work for nested values!
             },
             "session": {
                 "string": "string",
-                "random": "%RNG",
+                "random": null,
                 "int": 1,
                 "float": 1.23,
                 "boolean": false,

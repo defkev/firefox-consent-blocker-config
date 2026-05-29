@@ -159,14 +159,14 @@
 		"name": "Microsoft",
 		"client": true,
 		"cookies": {
-			"eupubconsent-v2": "%RNG"
+			"eupubconsent-v2": null
 		},
 		"types": ["main_frame"]
 	},
 	"(www)?\\.ebay\\.[a-z\\.]+": {
 		"name": "eBay",
 		"cookies": {
-			"npii": "%RNG"
+			"npii": null
 		},
 		"types": ["main_frame"]
 	},
@@ -195,22 +195,22 @@
 	},
 	"(www)?\\.theverge\\.com": {
 		"cookies": {
-			"_chorus_privacy_consent": "%RNG"
+			"_chorus_privacy_consent": null
 		},
 		"types": ["main_frame"]
 	},
 	"(www)?\\.spiegel\\.de": {
 		"client": true,
 		"cookies": {
-			"euconsent-v2": "%RNG",
-			"polygon_consent": "%RNG"
+			"euconsent-v2": null,
+			"polygon_consent": null
 		},
 		"types": ["main_frame"]
 	},
 	"[a-z]+\\.fandom\\.com": {
 		"client": true,
 		"cookies": {
-			"euconsent-v2": "%RNG",
+			"euconsent-v2": null,
 			"tracking-opt-in-status": "rejected",
 			"tracking-opt-in-version": 4
 		},
