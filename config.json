@@ -92,7 +92,7 @@
 	"([a-z46]+\\.)?google\\.[a-z\\.]+": {
 		"name": "Google",
 		"cookies": {
-			"SOCS": "CAESNQgCEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjUwOTMwLjA2X3AwGgJkZSADGgYIgIH3xgY"
+			"SOCS": "CAESNQgBEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjYxMDE0LjA1X3AwGgJkZSADGgYIgJjQ1gY"
 		},
 		"types": ["main_frame"]
 	},
