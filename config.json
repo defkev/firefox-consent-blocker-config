@@ -117,8 +117,8 @@
 		},
 		"types": ["main_frame"]
 	},
-	"(mobile)?(\\.)?twitter\\.com": {
-		"name": "Twitter",
+	"(mobile)?(\\.)?(twitter|x)\\.com": {
+		"name": "X (Twitter)",
 		"client": true,
 		"cookies": {
 			"d_prefs": "MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw"
