@@ -163,13 +163,6 @@
 		},
 		"types": ["main_frame"]
 	},
-	"(www)?\\.ebay\\.[a-z\\.]+": {
-		"name": "eBay",
-		"cookies": {
-			"npii": null
-		},
-		"types": ["main_frame"]
-	},
 	"(www)?\\.bbc\\.com": {
 		"client": true,
 		"cookies": {
